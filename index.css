@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: antiquewhite;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+p:first-of-type{
+    color: brown;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Oi', 'serif';
+    font-weight: 300;
+    color: brown;
+}
+
+button{
+    padding: 15px;
+    background: brown;
+    color: antiquewhite;
+    border: none;
+    border-radius: 25px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.squares-container{
+    margin: 50px;
+}
